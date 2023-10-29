@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel ="stylesheet" type="text/css" href="survey.css">
+    <link rel ="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <title>SUSTAINA</title>
+</head>
+<body>
+    <header>
+        <p>Sustainability is key</p>
+      </header>
+    <nav>
+        <div class="logo">
+            <img src="photos/Untitled (1).png">
+          <h1>SUSTAINA</h1>
+        
+        </div>
+        <div class="d-flex flex-row-reverse bd-highlight">
+        <ul>
+          <li><a href="#"></a>Hello, there!</li>
+          
+       
+        </ul>
+      </div>
+        
+      </nav>
+
+      
+      <h1 id="title">SAVE THE WORLD</h1>
+    
+    
+     
+      
+      <form id="form" action="submit.php" method="POST">
+          <div class="input-element">
+              <label for="name">Name</label>
+              <input id="name" type="text" name="name" required>
+          </div>
+          <div class="input-element">
+              <label for="email">Email</label>
+              <input id="email" type="email" name="email" required>
+          </div>
+          <div class="input-element">
+              <label for="age">Age</label>
+              <input id="age" type="number" name="age" required>
+          </div>
+      
+         
+          <div class="input-element">
+              <label for="water_bottles">How many plastic water bottles do you use a day?</label>
+              <select id="water_bottles" name="water_bottles" required>
+                <option value="-">Select</option>
+                  <option value="0">0</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4+">4 or more</option>
+              </select>
+          </div>
+          <div class="input-element">
+              <label for="shower_duration">How long is your average shower?</label>
+              <select id="shower_duration" name="shower_duration" required>
+                <option value="-">Select</option>
+                <option value="0-5">0-5 minutes</option>
+                <option value="5-10">5-10 minutes</option>
+                  <option value="10-20">10-20 minutes</option>
+                  <option value="20-30">20-30 minutes</option>
+                  <option value="30-60">30-60 minutes</option>
+                  <option value="60+">More than an hour</option>
+              </select>
+          </div>
+          
+          <div class="input-element">
+            <label for="local_food">How often do you choose locally sourced and organic foods</label>
+            <select id="local_food" name="local_food" required>
+                <option value="-">Select</option>
+                <option value="always">Always</option>
+                <option value="most_of_the_time">Most of the time</option>
+                <option value="sometimes">Sometimes</option>
+                <option value="almost_never">Almost never</option>
+                <option value="never">Never</option>
+            </select>
+        </div>
+          <div class="input-element">
+            <label for="public_transportation">How often do you use public transportation instead of using your own car?</label>
+            <select id="public_transportation" name="public_transportation" required>
+                <option value="-">Select</option>
+                <option value="always">Always</option>
+                <option value="most_of_the_time">Most of the time</option>
+                <option value="sometimes">Sometimes</option>
+                <option value="almost_never">Almost never</option>
+                <option value="never">Never</option>
+            </select>
+        </div>
+        <div class="input-element">
+            <label for="compost">Do you compost food waste at home?</label>
+            <select id="compost" name="compost" required>
+                <option value="-">Select</option>
+                <option value="always">Always</option>
+                <option value="most_of_the_time">Most of the time</option>
+                <option value="sometimes">Sometimes</option>
+                <option value="almost_never">Almost never</option>
+                <option value="never">Never</option>
+            </select>
+        </div> 
+        <div class="input-element">
+            <label for="screen_time">What is your average daily screen time on electronic devices?</label>
+            <select id="screen_time" name="screen_time" required>
+                <option value="-">Select</option>
+                <option value="less_than_1_hour">&lt; 1 hour</option>
+                <option value="1_to_2_hours">1-2 hours</option>
+                <option value="2_to_4_hours">2-4 hours</option>
+                <option value="4_to_8_hours">4-8 hours</option>
+                <option value="8_plus_hours">8+ hours</option>
+            </select>
+        </div>
+        
+        <div class="input-element">
+            <label for="lights_and_devices">How often do you turn off lights and unplug devices when not in use?</label>
+            <select id="lights_and_devices" name="lights_and_devices" required>
+                <option value="-">Select</option>
+                <option value="always">Always</option>
+                <option value="most_of_the_time">Most of the time</option>
+                <option value="sometimes">Sometimes</option>
+                <option value="almost_never">Almost never</option>
+                <option value="never">Never</option>
+            </select>
+        </div>
+        <div class="input-element">
+            <label for="repair_or_repurpose">How often do you repair or repurpose items instead of buying new ones?</label>
+            <select id="repair_or_repurpose" name="repair_or_repurpose" required>
+                <option value="-">Select</option>
+                <option value="always">Always</option>
+                <option value="most_of_the_time">Most of the time</option>
+                <option value="sometimes">Sometimes</option>
+                <option value="almost_never">Almost never</option>
+                <option value="never">Never</option>
+            </select>
+        </div>
+        <div class="input-element">
+            <label for="sink_usage">How frequently do you leave the faucet running when it's not necessary?</label>
+            <select id="sink_usage" name="sink_usage" required>
+                <option value="-">Select</option>
+                <option value="always">Always</option>
+                <option value="most_of_the_time">Most of the time</option>
+                <option value="sometimes">Sometimes</option>
+                <option value="almost_never">Almost never</option>
+                <option value="never">Never</option>
+            </select>
+        </div>
+
+        <div class = s>
+          <input type="submit" class = "button" value="Submit">
+          </div>
+      </form>
+    
+
+       
+</body>
+<footer class = "footer-distributed" id = "foot">
+  <div class = "footer-left">
+      <h3>Sustaina<span>Works</span></h3>
+      <p class = "footer-company-name">© 2023 <strong>Sustaina</strong> All rights reserved</p>
+      
+
+
+
+  </div>
+
+  <div class="footer-right">
+      <div>
+          <p>Columbus, Ohio</p>
+      </div>
+      <div>
+          <p id = "email">Sustaina@gmail.com</p>
+      </div>
+  </div>
+
+ 
+
+      </div>
+  </div>
+
+</footer>
+
+<script>
+    document.querySelector("form").addEventListener("submit", function(event) {
+        const selectElements = document.querySelectorAll("select");
+        
+        for (const select of selectElements) {
+            if (select.value === "-") {
+                event.preventDefault(); // Prevent form submission
+                alert("Please select a valid option for all fields.");
+                break;
+            }
+        }
+    });
+    </script>
+  
+  
+
+</html>
+  
+
+

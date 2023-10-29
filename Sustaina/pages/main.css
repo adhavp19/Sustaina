@@ -1,0 +1,492 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Source Sans Pro', sans-serif;
+
+ 
+}
+html, body {
+  overflow-x: hidden;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  height:100%;
+  margin: 0;
+  padding: 0;
+  
+}
+
+header {
+    background-color:#34a540;
+    color: white;
+    font-size: 16px;
+    letter-spacing: 1.5px;
+    padding: 6px;
+    text-align: center;
+    justify-content: center;
+  }
+/* Default styles for nav */
+body{
+  margin:0;
+  overflow-x: hidden;
+}
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+nav {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  #blueey{
+    color:rgb(38, 92, 0);
+    
+}
+.whole{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  width:100%;
+  height: 100vh;
+  justify-content: space-between;
+  margin-bottom:700px;
+	
+}
+  .logo h1{
+  
+    color:black;
+    letter-spacing: 3px;
+    font-size: 37px;
+    margin-left:10px;
+    
+    
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    height: 60px;
+    margin-right: 10px;
+  }
+  
+  ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    font-size:18px;
+  }
+  
+  li {
+    margin-right: 25px;
+   
+  }
+  
+  a {
+    color: #333;
+    text-decoration: none;
+    transition:0.4s;
+  }
+  
+  a:hover {
+    color: #000000;
+    letter-spacing: 2px;;
+  }
+  
+  /* The hero image */
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('photos/green-roofs-03.webp');
+
+  /* Set a specific height */
+  height: 50%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+
+  .head{
+    
+    margin-top:80px;
+    margin-bottom:40px;
+    
+  
+  }
+
+  .head h1{
+    font-size:43px;
+    text-align:center;
+    letter-spacing: 4px;
+    color:#008327;
+  }
+  .head p{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: lighter;
+    color:#33383b;
+    margin-right:70px;
+    margin-left:70px;
+    text-align:center;
+  }
+
+  .s {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+
+  .button {
+    background-color: #03ac3e;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .footer-distributed {
+    position:relative;
+    bottom:0;
+    flex-shrink: 0;
+    background-color: green;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: bold 16px sans-serif;
+    padding: 50px 50px 60px 50px;
+    margin-top: 120px;
+    margin-bottom:0px;
+  }
+  
+  .footer-distributed .footer-left, .footer-distributed .footer-center, .footer-distributed .footer-right {
+    display: inline-block;
+    vertical-align: top;
+  }
+  
+  /* Footer left */
+  
+  .footer-distributed .footer-left {
+    width: 100%;
+  }
+  
+  .footer-left h3 {
+    color: #ffffff;
+    font-size: 100px;
+    margin: 0;
+    font-weight: 470;
+  }
+  
+  
+  .footer-distributed h3 span {
+    color: black;
+  }
+  
+  /* Footer links */
+  
+  .footer-distributed .footer-links {
+    color: #ffffff;
+    font-weight:450;
+    margin: 20px 0 12px;
+    transition: 0.3s;
+      
+   
+  }
+  
+  .footer-distributed .footer-links a {
+    display: inline-block;
+    font-size:25px;
+    line-height: 1.8;
+    text-decoration: none;
+    color: inherit;
+    transition: 0.3s;
+  }
+  
+  #spacedlinks{
+    padding-left:15px;
+  }
+  #spacedlinks2{
+    padding-left:15px;
+  }
+  
+  
+  
+  .footer-distributed .footer-company-name {
+    color: black;
+    font-size: 20px;
+    font-weight: normal;
+    margin: 0;
+  }
+  
+  /* Footer Center */
+  
+  .footer-distributed .footer-center {
+    width:50%;
+   
+  }
+  
+  .footer-distributed .footer-center i {
+    background-color: #33383b;
+    color: #ffffff;
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px 15px;
+    vertical-align: middle;
+  }
+  
+  .footer-distributed .footer-center i.fa-envelope {
+    font-size: 17px;
+    line-height: 38px;
+  }
+  
+  .footer-distributed .footer-center p {
+    display: inline-block;
+    color: #ffffff;
+    
+    margin: 0;
+  }
+  
+  .footer-distributed .footer-center p span {
+    display: block;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 2;
+  }
+  
+  .footer-distributed .footer-center p a {
+    color: black;
+    text-decoration: none;
+    ;
+  }
+  
+  /* Footer Right */
+  
+  .footer-distributed .footer-right {
+    margin-top:40px;
+    width: 100%;
+  }
+  .footer-right p{
+    color:white;
+    font-size:25px;
+    
+    font-weight:450;
+  }
+  .footer-distributed .footer-company-about {
+    line-height: 20px;
+    color: #92999f;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+  }
+  
+  .footer-distributed .footer-company-about span {
+    display: block;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .footer-distributed .footer-icons {
+    margin-top: 25px;
+  }
+  
+  .footer-distributed .footer-icons a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color: #33383b;
+    border-radius: 2px;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+    margin-right: 3px;
+    margin-bottom: 5px;
+  }
+  
+  .footer-distributed .footer-icons a:hover {
+    background-color:#34a540;
+  }
+  
+  .footer-links a:hover {
+    color:  black;
+    transition: 0.3s;
+    font-size:30px;
+  }
+  @media (max-width: 1230px) {
+    .chart-wrapper{
+      width:450px;
+    }
+    .footer-left h3 {
+      color: #ffffff;
+      font-size: 75px;
+      margin: 0;
+      font-weight: 470;
+    }
+  }
+  @media (max-width: 1120px) {
+    .chart-wrapper{
+      width:400px;
+    }
+  }
+  @media (max-width: 1030px) {
+    .whole{
+      flex-direction: column;
+      text-align: center;
+      
+      
+    }
+    .doctors-section{
+      margin-right: 40px;
+      
+    }
+    .chart-wrapper{
+      display: inline-block;
+      width:500px;
+      margin: 0 auto;
+      
+    }
+    .footer-left h3 {
+      color: #ffffff;
+      font-size: 60px;
+      margin: 0;
+      font-weight: 470;
+    }
+  }
+  @media (max-width: 650px) {
+    .chart-wrapper{
+      display: inline-block;
+      width:350px;
+      
+ 
+    }
+      
+.footer-left h3 {
+  color: #ffffff;
+  font-size: 35px;
+  margin: 0;
+  font-weight: 470;
+}
+
+.footer-distributed .footer-links a{
+  font-size:15px;
+}
+
+.footer-distributed .footer-company-name{
+  font-size: 15px;
+}
+
+.footer-right p{
+  color:white;
+  font-size:15px;
+  
+  font-weight:normal;
+}
+
+.footer-distributed .footer-links a:hover{
+  font-size: 20px;
+  color:#0056b3;
+}
+  }
+  @media (max-width: 400px) {
+    .chart-wrapper{
+      display: inline-block;
+      width:340px;
+      
+ 
+    }
+  }
+
+
+  @media (max-width: 1100px) {
+    .doctor-card {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .doctor-info {
+      margin-top: 10px;
+    }
+  
+    .p2 {
+      position: static;
+      margin-top: 10px;
+    }
+    .p3 {
+      position: static;
+      margin-top: 5px;
+    }
+  
+    .schedule-button {
+      position: static;
+      margin-top: 10px;
+    }
+    .head{
+      font-size: 17px;
+    }
+  }
+  @media (max-width: 500px) {
+   .doctors-section{
+    align-items: center;
+   }
+    .doctor-info h2{
+      font-size:19px;
+    }
+    .doctor-info h3{
+      font-size:14px;
+    }
+  }
+  
+  
+
+
+  
+  /* Media query for smaller screens */
+  @media (max-width: 768px) {
+    nav {
+      flex-direction: column;
+      justify-content: center;
+      height: auto;
+    }
+    .doctors-section{
+      flex-basis:100%;
+      margin-right: 40px;
+    }
+  
+    .logo {
+      margin-bottom: 20px;
+    }
+  
+    ul {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    li {
+      margin: 0;
+      margin-bottom: 10px;
+    }
+  }
+  
